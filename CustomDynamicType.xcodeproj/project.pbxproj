@@ -7,10 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7AF4E91C2B19332000271164 /* CustomDynamicType.docc in Sources */ = {isa = PBXBuildFile; fileRef = 7AF4E91B2B19332000271164 /* CustomDynamicType.docc */; };
 		7AF4E9222B19332000271164 /* CustomDynamicType.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AF4E9172B19332000271164 /* CustomDynamicType.framework */; };
 		7AF4E9272B19332000271164 /* CustomDynamicTypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF4E9262B19332000271164 /* CustomDynamicTypeTests.swift */; };
-		7AF4E9282B19332000271164 /* CustomDynamicType.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AF4E91A2B19332000271164 /* CustomDynamicType.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7AF4E9332B1933B300271164 /* CustomDynamicType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF4E9322B1933B300271164 /* CustomDynamicType.swift */; };
 		7AF4E93B2B19340300271164 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF4E93A2B19340300271164 /* AppDelegate.swift */; };
 		7AF4E93D2B19340300271164 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF4E93C2B19340300271164 /* SceneDelegate.swift */; };
@@ -29,6 +27,17 @@
 		7AF4E9612B193FB100271164 /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF4E9602B193FB100271164 /* UIFont.swift */; };
 		7AF4E9632B19435000271164 /* UIFont+CustomDynamicType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF4E9622B19435000271164 /* UIFont+CustomDynamicType.swift */; };
 		7AF4E9662B1947C600271164 /* CustomDynamicType_internal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF4E9652B1947C600271164 /* CustomDynamicType_internal.swift */; };
+		7AF4E96E2B1949B700271164 /* SwiftUIExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF4E96D2B1949B700271164 /* SwiftUIExampleApp.swift */; };
+		7AF4E9702B1949B700271164 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF4E96F2B1949B700271164 /* ContentView.swift */; };
+		7AF4E9722B1949B900271164 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AF4E9712B1949B900271164 /* Assets.xcassets */; };
+		7AF4E9752B1949B900271164 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AF4E9742B1949B900271164 /* Preview Assets.xcassets */; };
+		7AF4E97A2B194A9400271164 /* CustomDynamicType.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AF4E9172B19332000271164 /* CustomDynamicType.framework */; };
+		7AF4E97B2B194A9400271164 /* CustomDynamicType.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7AF4E9172B19332000271164 /* CustomDynamicType.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7AF4E97F2B194ACE00271164 /* NewYorkMedium-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7AF4E9582B193DA600271164 /* NewYorkMedium-Semibold.otf */; };
+		7AF4E9802B194ACE00271164 /* NewYorkMedium-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7AF4E9572B193DA500271164 /* NewYorkMedium-Bold.otf */; };
+		7AF4E9812B194ACE00271164 /* NewYorkMedium-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7AF4E9592B193DA600271164 /* NewYorkMedium-Medium.otf */; };
+		7AF4E9822B194ACE00271164 /* NewYorkMedium-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7AF4E9562B193DA500271164 /* NewYorkMedium-Regular.otf */; };
+		7AF4E9842B194BB300271164 /* Font+CustomDynamicType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF4E9832B194BB300271164 /* Font+CustomDynamicType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +49,13 @@
 			remoteInfo = CustomDynamicType;
 		};
 		7AF4E94F2B19342100271164 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AF4E90E2B19332000271164 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AF4E9162B19332000271164;
+			remoteInfo = CustomDynamicType;
+		};
+		7AF4E97C2B194A9400271164 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 7AF4E90E2B19332000271164 /* Project object */;
 			proxyType = 1;
@@ -60,12 +76,21 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7AF4E97E2B194A9400271164 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7AF4E97B2B194A9400271164 /* CustomDynamicType.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		7AF4E9172B19332000271164 /* CustomDynamicType.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CustomDynamicType.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7AF4E91A2B19332000271164 /* CustomDynamicType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomDynamicType.h; sourceTree = "<group>"; };
-		7AF4E91B2B19332000271164 /* CustomDynamicType.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = CustomDynamicType.docc; sourceTree = "<group>"; };
 		7AF4E9212B19332000271164 /* CustomDynamicTypeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomDynamicTypeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AF4E9262B19332000271164 /* CustomDynamicTypeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDynamicTypeTests.swift; sourceTree = "<group>"; };
 		7AF4E9322B1933B300271164 /* CustomDynamicType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDynamicType.swift; sourceTree = "<group>"; };
@@ -86,6 +111,13 @@
 		7AF4E9602B193FB100271164 /* UIFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
 		7AF4E9622B19435000271164 /* UIFont+CustomDynamicType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+CustomDynamicType.swift"; sourceTree = "<group>"; };
 		7AF4E9652B1947C600271164 /* CustomDynamicType_internal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDynamicType_internal.swift; sourceTree = "<group>"; };
+		7AF4E96B2B1949B700271164 /* SwiftUIExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AF4E96D2B1949B700271164 /* SwiftUIExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIExampleApp.swift; sourceTree = "<group>"; };
+		7AF4E96F2B1949B700271164 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7AF4E9712B1949B900271164 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7AF4E9742B1949B900271164 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7AF4E9792B1949CD00271164 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7AF4E9832B194BB300271164 /* Font+CustomDynamicType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+CustomDynamicType.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +144,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7AF4E9682B1949B700271164 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AF4E97A2B194A9400271164 /* CustomDynamicType.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -119,9 +159,9 @@
 			isa = PBXGroup;
 			children = (
 				7AF4E9312B1933A300271164 /* Sources */,
-				7AF4E9192B19332000271164 /* CustomDynamicType */,
 				7AF4E9252B19332000271164 /* CustomDynamicTypeTests */,
 				7AF4E9392B19340300271164 /* UIKitExample */,
+				7AF4E96C2B1949B700271164 /* SwiftUIExample */,
 				7AF4E9542B19394A00271164 /* ExampleFont */,
 				7AF4E9182B19332000271164 /* Products */,
 				7AF4E94C2B19342100271164 /* Frameworks */,
@@ -134,17 +174,9 @@
 				7AF4E9172B19332000271164 /* CustomDynamicType.framework */,
 				7AF4E9212B19332000271164 /* CustomDynamicTypeTests.xctest */,
 				7AF4E9382B19340300271164 /* UIKitExample.app */,
+				7AF4E96B2B1949B700271164 /* SwiftUIExample.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		7AF4E9192B19332000271164 /* CustomDynamicType */ = {
-			isa = PBXGroup;
-			children = (
-				7AF4E91A2B19332000271164 /* CustomDynamicType.h */,
-				7AF4E91B2B19332000271164 /* CustomDynamicType.docc */,
-			);
-			path = CustomDynamicType;
 			sourceTree = "<group>";
 		};
 		7AF4E9252B19332000271164 /* CustomDynamicTypeTests */ = {
@@ -160,6 +192,7 @@
 			children = (
 				7AF4E9322B1933B300271164 /* CustomDynamicType.swift */,
 				7AF4E9522B1935D100271164 /* CustomDynamicFontNames.swift */,
+				7AF4E9832B194BB300271164 /* Font+CustomDynamicType.swift */,
 				7AF4E9622B19435000271164 /* UIFont+CustomDynamicType.swift */,
 				7AF4E95E2B193EA700271164 /* UILabel+CustomDynamicType.swift */,
 				7AF4E9642B19438400271164 /* Internal */,
@@ -208,6 +241,26 @@
 			path = Internal;
 			sourceTree = "<group>";
 		};
+		7AF4E96C2B1949B700271164 /* SwiftUIExample */ = {
+			isa = PBXGroup;
+			children = (
+				7AF4E9792B1949CD00271164 /* Info.plist */,
+				7AF4E96D2B1949B700271164 /* SwiftUIExampleApp.swift */,
+				7AF4E96F2B1949B700271164 /* ContentView.swift */,
+				7AF4E9712B1949B900271164 /* Assets.xcassets */,
+				7AF4E9732B1949B900271164 /* Preview Content */,
+			);
+			path = SwiftUIExample;
+			sourceTree = "<group>";
+		};
+		7AF4E9732B1949B900271164 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7AF4E9742B1949B900271164 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -215,7 +268,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AF4E9282B19332000271164 /* CustomDynamicType.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +329,25 @@
 			productReference = 7AF4E9382B19340300271164 /* UIKitExample.app */;
 			productType = "com.apple.product-type.application";
 		};
+		7AF4E96A2B1949B700271164 /* SwiftUIExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AF4E9762B1949B900271164 /* Build configuration list for PBXNativeTarget "SwiftUIExample" */;
+			buildPhases = (
+				7AF4E9672B1949B700271164 /* Sources */,
+				7AF4E9682B1949B700271164 /* Frameworks */,
+				7AF4E9692B1949B700271164 /* Resources */,
+				7AF4E97E2B194A9400271164 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7AF4E97D2B194A9400271164 /* PBXTargetDependency */,
+			);
+			name = SwiftUIExample;
+			productName = SwiftUIExample;
+			productReference = 7AF4E96B2B1949B700271164 /* SwiftUIExample.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -294,6 +365,9 @@
 						CreatedOnToolsVersion = 15.0.1;
 					};
 					7AF4E9372B19340300271164 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					7AF4E96A2B1949B700271164 = {
 						CreatedOnToolsVersion = 15.0.1;
 					};
 				};
@@ -314,6 +388,7 @@
 				7AF4E9162B19332000271164 /* CustomDynamicType */,
 				7AF4E9202B19332000271164 /* CustomDynamicTypeTests */,
 				7AF4E9372B19340300271164 /* UIKitExample */,
+				7AF4E96A2B1949B700271164 /* SwiftUIExample */,
 			);
 		};
 /* End PBXProject section */
@@ -347,6 +422,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7AF4E9692B1949B700271164 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AF4E9752B1949B900271164 /* Preview Assets.xcassets in Resources */,
+				7AF4E9822B194ACE00271164 /* NewYorkMedium-Regular.otf in Resources */,
+				7AF4E9722B1949B900271164 /* Assets.xcassets in Resources */,
+				7AF4E9812B194ACE00271164 /* NewYorkMedium-Medium.otf in Resources */,
+				7AF4E97F2B194ACE00271164 /* NewYorkMedium-Semibold.otf in Resources */,
+				7AF4E9802B194ACE00271164 /* NewYorkMedium-Bold.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -355,10 +443,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7AF4E9332B1933B300271164 /* CustomDynamicType.swift in Sources */,
+				7AF4E9842B194BB300271164 /* Font+CustomDynamicType.swift in Sources */,
 				7AF4E9662B1947C600271164 /* CustomDynamicType_internal.swift in Sources */,
 				7AF4E9632B19435000271164 /* UIFont+CustomDynamicType.swift in Sources */,
 				7AF4E95F2B193EA700271164 /* UILabel+CustomDynamicType.swift in Sources */,
-				7AF4E91C2B19332000271164 /* CustomDynamicType.docc in Sources */,
 				7AF4E9612B193FB100271164 /* UIFont.swift in Sources */,
 				7AF4E9532B1935D100271164 /* CustomDynamicFontNames.swift in Sources */,
 			);
@@ -382,6 +470,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7AF4E9672B1949B700271164 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AF4E9702B1949B700271164 /* ContentView.swift in Sources */,
+				7AF4E96E2B1949B700271164 /* SwiftUIExampleApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -394,6 +491,11 @@
 			isa = PBXTargetDependency;
 			target = 7AF4E9162B19332000271164 /* CustomDynamicType */;
 			targetProxy = 7AF4E94F2B19342100271164 /* PBXContainerItemProxy */;
+		};
+		7AF4E97D2B194A9400271164 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7AF4E9162B19332000271164 /* CustomDynamicType */;
+			targetProxy = 7AF4E97C2B194A9400271164 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -566,6 +668,7 @@
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
 				PRODUCT_BUNDLE_IDENTIFIER = app.truescreen.CustomDynamicType;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				RUN_DOCUMENTATION_COMPILER = NO;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -597,6 +700,7 @@
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
 				PRODUCT_BUNDLE_IDENTIFIER = app.truescreen.CustomDynamicType;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				RUN_DOCUMENTATION_COMPILER = NO;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -694,6 +798,66 @@
 			};
 			name = Release;
 		};
+		7AF4E9772B1949B900271164 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIExample/Preview Content\"";
+				DEVELOPMENT_TEAM = ZWZ2Z22M6V;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUIExample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.truescreen.SwiftUIExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7AF4E9782B1949B900271164 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIExample/Preview Content\"";
+				DEVELOPMENT_TEAM = ZWZ2Z22M6V;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUIExample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.truescreen.SwiftUIExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -729,6 +893,15 @@
 			buildConfigurations = (
 				7AF4E94A2B19340500271164 /* Debug */,
 				7AF4E94B2B19340500271164 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AF4E9762B1949B900271164 /* Build configuration list for PBXNativeTarget "SwiftUIExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AF4E9772B1949B900271164 /* Debug */,
+				7AF4E9782B1949B900271164 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
