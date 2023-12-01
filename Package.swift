@@ -17,6 +17,7 @@ let package = Package(
     targets: [
         .target(
             name: "CustomDynamicType",
+            path: "Sources",
             dependencies: [])
     ]
 )
