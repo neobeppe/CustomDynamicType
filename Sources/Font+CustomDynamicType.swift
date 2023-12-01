@@ -10,9 +10,9 @@ import UIKit
 
 public extension Font {
     
-    static func font(style: UIFont.TextStyle, overrideWeight: UIFont.Weight? = nil) -> Font {
-        let size = UIFont.preferredFont(forTextStyle: style).pointSize
-        return Font.custom(overrideWeight?.name ?? style.name, size: size, relativeTo: style.swiftUIStyle)
+    static func font(style: Font.TextStyle, overrideWeight: Font.Weight? = nil) -> Font {
+        let size = UIFont.preferredFont(forTextStyle: style.UIKitStyle).pointSize
+        return Font.custom(overrideWeight?.UIKitWeight.name ?? style.UIKitStyle.name, size: size, relativeTo: style)
     }
     
 }

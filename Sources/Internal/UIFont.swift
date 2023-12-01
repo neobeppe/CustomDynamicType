@@ -6,30 +6,12 @@
 //
 
 import UIKit
-import SwiftUI
 
 extension UIFont.TextStyle {
     
     var name: String {
         let font = UIFont.preferredFont(forTextStyle: self)
         return font.weight.name ?? font.fontName
-    }
-    
-    var swiftUIStyle: Font.TextStyle {
-        switch self {
-        case .largeTitle: return .largeTitle
-        case .title1: return .title
-        case .title2: return .title2
-        case .title3: return .title2
-        case .headline: return .headline
-        case .subheadline: return .subheadline
-        case .body: return .body
-        case .callout: return .callout
-        case .footnote: return .footnote
-        case .caption1: return .caption
-        case .caption2: return .caption2
-        default: return .body
-        }
     }
 }
 

@@ -17,7 +17,7 @@ struct ContentView: View {
                 Text("Its hazards are hostile to us all.")
                     .font(Font.font(style: .headline))
                 Text("Its conquest deserves the best of all mankind, and its opportunity for peaceful cooperation many never come again.")
-                    .font(Font.font(style: .title1))
+                    .font(Font.font(style: .title))
                 Text("But why, some say, the moon? Why choose this as our goal?")
                     .font(Font.font(style: .footnote))
             }.padding()

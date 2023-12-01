@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A54CD412B1A302E00D33054 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A54CD402B1A302E00D33054 /* Font.swift */; };
 		7AF4E9222B19332000271164 /* CustomDynamicType.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AF4E9172B19332000271164 /* CustomDynamicType.framework */; };
 		7AF4E9272B19332000271164 /* CustomDynamicTypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF4E9262B19332000271164 /* CustomDynamicTypeTests.swift */; };
 		7AF4E9332B1933B300271164 /* CustomDynamicType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF4E9322B1933B300271164 /* CustomDynamicType.swift */; };
@@ -90,6 +91,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7A54CD402B1A302E00D33054 /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
 		7AF4E9172B19332000271164 /* CustomDynamicType.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CustomDynamicType.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AF4E9212B19332000271164 /* CustomDynamicTypeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomDynamicTypeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AF4E9262B19332000271164 /* CustomDynamicTypeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDynamicTypeTests.swift; sourceTree = "<group>"; };
@@ -237,6 +239,7 @@
 			children = (
 				7AF4E9652B1947C600271164 /* CustomDynamicType_internal.swift */,
 				7AF4E9602B193FB100271164 /* UIFont.swift */,
+				7A54CD402B1A302E00D33054 /* Font.swift */,
 			);
 			path = Internal;
 			sourceTree = "<group>";
@@ -446,6 +449,7 @@
 				7AF4E9842B194BB300271164 /* Font+CustomDynamicType.swift in Sources */,
 				7AF4E9662B1947C600271164 /* CustomDynamicType_internal.swift in Sources */,
 				7AF4E9632B19435000271164 /* UIFont+CustomDynamicType.swift in Sources */,
+				7A54CD412B1A302E00D33054 /* Font.swift in Sources */,
 				7AF4E95F2B193EA700271164 /* UILabel+CustomDynamicType.swift in Sources */,
 				7AF4E9612B193FB100271164 /* UIFont.swift in Sources */,
 				7AF4E9532B1935D100271164 /* CustomDynamicFontNames.swift in Sources */,
