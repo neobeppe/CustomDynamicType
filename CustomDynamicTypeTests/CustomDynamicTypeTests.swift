@@ -9,28 +9,37 @@ import XCTest
 @testable import CustomDynamicType
 
 final class CustomDynamicTypeTests: XCTestCase {
-
+    
     override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        let fontNames = CustomDynamicFontNames(regular: "NewYorkMedium-Regular",
+                                               medium: "NewYorkMedium-Medium",
+                                               semibold: "NewYorkMedium-Semibold",
+                                               bold: "NewYorkMedium-Bold")
+        CustomDynamicType.setup(with: fontNames)
     }
-
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+    
+    func testSetup() throws {
+        XCTAssert(CustomDynamicType_internal.shared.names?.regular == "NewYorkMedium-Regular")
+        XCTAssert(CustomDynamicType_internal.shared.names?.medium == "NewYorkMedium-Medium")
+        XCTAssert(CustomDynamicType_internal.shared.names?.semibold == "NewYorkMedium-Semibold")
+        XCTAssert(CustomDynamicType_internal.shared.names?.bold == "NewYorkMedium-Bold")
     }
-
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
+    
+    func testWeightNames() throws {
+        XCTAssert(UIFont.Weight.regular.name == "NewYorkMedium-Regular")
+        XCTAssert(UIFont.Weight.medium.name == "NewYorkMedium-Medium")
+        XCTAssert(UIFont.Weight.semibold.name == "NewYorkMedium-Semibold")
+        XCTAssert(UIFont.Weight.bold.name == "NewYorkMedium-Bold")
+        XCTAssertNil(UIFont.Weight.ultraLight.name)
+        XCTAssertNil(UIFont.Weight.thin.name)
+        XCTAssertNil(UIFont.Weight.light.name)
+        XCTAssertNil(UIFont.Weight.heavy.name)
+        XCTAssertNil(UIFont.Weight.black.name)
+        XCTAssertNil(UIFont.Weight(rawValue: -1).name)
     }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    
+    func testTextSyleName() throws {
+        XCTAssert(UIFont.TextStyle.body.name == "NewYorkMedium-Regular")
+        XCTAssert(UIFont.TextStyle.largeTitle.name == "NewYorkMedium-Regular")
     }
-
 }
