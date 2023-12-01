@@ -14,12 +14,12 @@ public struct CustomDynamicFontNames {
     let light: String?
     let regular: String
     let medium: String?
-    let semibold: String?
+    let semibold: String
     let bold: String?
     let heavy: String?
     let black: String?
     
-    public init(ultraLight: String? = nil, thin: String? = nil, light: String? = nil, regular: String, medium: String? = nil, semibold: String? = nil, bold: String? = nil, heavy: String? = nil, black: String? = nil) {
+    public init(ultraLight: String? = nil, thin: String? = nil, light: String? = nil, regular: String, medium: String? = nil, semibold: String, bold: String? = nil, heavy: String? = nil, black: String? = nil) {
         
         self.ultraLight = ultraLight
         self.thin = thin

@@ -11,7 +11,7 @@ extension UIFont.TextStyle {
     
     var name: String {
         let font = UIFont.preferredFont(forTextStyle: self)
-        return font.weight.name ?? font.fontName
+        return font.weight.name ?? CustomDynamicType_internal.shared.names?.regular ?? font.fontName
     }
 }
 
