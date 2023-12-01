@@ -1,9 +1,10 @@
 
 # CustomDynamicType -  Bridging Custom Fonts and Accessibility in iOS
 
+![Banner](Media/Banner.png?raw=true)
 
 ## Introduction
-Welcome to CustomDynamicType, a versatile Swift library designed to seamlessly integrate custom fonts into iOS DynamicType. This library is not just a means to enhance your app's aesthetic appeal with personalized fonts; it's a commitment to inclusivity. 
+Welcome to CustomDynamicType, a versatile Swift library designed to seamlessly integrate custom fonts into iOS Dynamic Type. This library is not just a means to enhance your app's aesthetic appeal with personalized fonts; it's a commitment to inclusivity. 
 
 This solution is tailored for both UIKit and SwiftUI, providing a smooth and adaptable experience across different iOS development environments. 
 
@@ -86,6 +87,8 @@ Text("Another text but for the body")
 In SwiftUI, you use `Font.font(style:overrideWeight:)` to set the font style and optional weight for your Text views. `overrideWeight` parameter is optional and support any variant of `Font.Weight` (`ultraLight`, `thin`, `light`, `regular`, `medium`, `semibold`, `bold`, `heavy`, `black`) but remember that you need to setup the library with corrisponding font name otherwise it will fallback on the regular one.
 
 By incorporating these methods into your iOS applications, you can maintain a consistent and accessible font style across both UIKit and SwiftUI platforms. CustomDynamicType ensures that your custom fonts are not just visually appealing but also fully compatible with Apple's accessibility features.
+
+![Animation](Media/Dynamic.gif?raw=true)
 
 ## Installation
 
