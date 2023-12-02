@@ -7,6 +7,7 @@
 
 import Foundation
 
+/// Configuration struct that contains font names for desired supported weight, remember to register font files into your Info.plist file
 public struct CustomDynamicFontNames {
     
     let ultraLight: String?
@@ -19,6 +20,9 @@ public struct CustomDynamicFontNames {
     let heavy: String?
     let black: String?
     
+    /// Init configuration names struct
+    ///
+    /// `regular` and `semibold` are required because Apple default implementation relays on those weights, others are optional.
     public init(ultraLight: String? = nil, thin: String? = nil, light: String? = nil, regular: String, medium: String? = nil, semibold: String, bold: String? = nil, heavy: String? = nil, black: String? = nil) {
         
         self.ultraLight = ultraLight
