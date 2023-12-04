@@ -1,5 +1,4 @@
 // swift-tools-version:5.3
-// The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
 
@@ -13,10 +12,15 @@ let package = Package(
             name: "CustomDynamicType",
             targets: ["CustomDynamicType"]),
     ],
-    dependencies: [],
     targets: [
         .target(
             name: "CustomDynamicType",
-            path: "Sources")
+            path: "Sources"
+        ),
+        .testTarget(
+            name: "CustomDynamicTypeTests",
+            dependencies: ["CustomDynamicType"],
+            path: "Tests"
+        )
     ]
 )
