@@ -9,7 +9,7 @@ import UIKit
 
 public extension UILabel {
     
-    ///Apply the desired font style to each UILabel. 
+    ///Apply the desired font style to each UILabel.
     ///
     ///Parameters:
     ///- style: any possible `UIFont.TextStyle` system style (`.largeTitle`, `.title1`, `.title2`, `.title3`, `.headline`, `.subheadline`, `.body`, `.callout`, `.footnote`, `.caption1`, `.caption2`)
