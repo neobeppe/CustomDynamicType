@@ -90,6 +90,10 @@ By incorporating these methods into your iOS applications, you can maintain a co
 
 ![Animation](Media/Dynamic.gif?raw=true)
 
+## Documentation
+
+Full documentation is availbale at [this link](https://neobeppe.github.io/CustomDynamicType/documentation/customdynamictype/)
+
 ## Installation
 
 #### [Swift Package Manager](https://github.com/apple/swift-package-manager)
