@@ -1,6 +1,14 @@
 
 # CustomDynamicType -  Bridging Custom Fonts and Accessibility in iOS
 
+[![CocoaPods](https://img.shields.io/cocoapods/v/CustomDynamicType.svg?style=flat)](http://cocoapods.org/pods/CustomDynamicType) 
+[![License](https://img.shields.io/cocoapods/l/CustomDynamicType.svg?style=flat)](https://github.com/neobeppe/CustomDynamicType/blob/main/LICENSE.md)
+[![Version](https://img.shields.io/cocoapods/v/CustomDynamicType.svg?style=flat)]
+[![Swift Version](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fneobeppe%CustomDynamicType%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/neobeppe/CustomDynamicType)
+[![Platforms](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fneobeppe%CustomDynamicType%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/neobeppe/CustomDynamicType)
+
+
+
 ![Banner](Media/Banner.png?raw=true)
 
 ## Introduction
